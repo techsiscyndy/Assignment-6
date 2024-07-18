@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Ga+Maamli&display=swap');
+.bg-light{
+    box-shadow: 1px 1px gold;
+    background-image: linear-gradient(to bottom right, rgb(102 174 197), rgb(7 9 9));
+}
+.navbar-light .navbar-brand,.navbar-brand{
+    text-shadow: 0.5px 0.5px #070706;
+    color: rgb(255, 0, 60);
+
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar-nav a {
+    font-family: "Ga Maamli", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ff0000;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color: #eefaf8;
+}
+body {
+    background-image: linear-gradient(to bottom right, rgb(193, 238, 242), rgb(241, 226, 210));
+    background-image: url('https://images.unsplash.com/photo-1567095761054-7a02e69e5c43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+main {
+    background-color: #00000085;
+    margin-top: 3.5em;
+    margin-bottom: 3.5em;
+    color: gold;
+}
+table {
+    border: 2px solid rgb(255, 0, 0);
+}
+tbody tr th{
+    background-color: #f5faee;
+}
+
+form {
+    margin-top: 70px;
+    width: 90%;
+}
+
+fieldset {
+    border: 2px dotted rgb(214, 89, 11);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+legend {
+    width: 250px;
+    color: blueviolet;
+}
+
+form .btn-primary {
+    background-color: rgb(255, 81, 0);
+    color: black;
+}
