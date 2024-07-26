@@ -1,10 +1,10 @@
 /*
-*  WEB700 – Assignment 03
+*  WEB700 – Assignment 05
 *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.  No part 
 *  of this assignment has been copied manually or electronically from any other source 
 *  (including 3rd party web sites) or distributed to other students.
 * 
-*  Name: __CYNTHIA CHINEME____________________ Student ID: __130116239____________ Date: _________14-06-2024_______
+*  Name: __CYNTHIA CHINEME____________________ Student ID: __130116239____________ Date: _________25-07-2024_______
 *
 ********************************************************************************/ 
 
@@ -90,7 +90,7 @@ app.get("/courses", (req, res) => {
 app.get("/course/:num", (req, res) => {
     var courseNum = req.params.num;
     collegeStudentData.getCourseById(courseNum)
-    .then((resolve_response) => {  res.render('course', { courses: resolve_response, layout: "main" })    })
+    .then((resolve_response) => {  res.render('course', { course: resolve_response, layout: "main" })    })
     .catch(()=>{
         res.render('course', { message: 'no results', layout: "main" });
     })
