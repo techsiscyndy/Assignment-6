@@ -117,7 +117,7 @@ app.get("/htmlDemo", (req, res) => {
     res.render('htmlDemo', { layout: "main" });
 });
 app.get("/students/add", (req, res) => {
-    res.render('addStudent', { layout: "main" });
+    res.render('addstudent', { layout: "main" });
 });
 
 // Using Post route to process the form 
