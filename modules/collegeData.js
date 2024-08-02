@@ -20,29 +20,29 @@ var sequelize = new Sequelize(PGDATABASE, PGUSER, PGPASSWORD, {
 // defining the student model
 const Student = sequelize.define('Student', {
     studentNum: {
-        type: Sequalize.INTEGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    firstName: Sequalize.STRING,
-    lastName: Sequalize.STRING,
-    email: Sequalize.STRING,
-    addressStreet: Sequalize.STRING,
-    addressCity: Sequalize.STRING,
-    addressProvince: Sequalize.STRING,
-    TA: Sequalize.BOOLEAN,
-    status: Sequalize.STRING
+    firstName: Sequelize.STRING,
+    lastName: Sequelize.STRING,
+    email: Sequelize.STRING,
+    addressStreet: Sequelize.STRING,
+    addressCity: Sequelize.STRING,
+    addressProvince: Sequelize.STRING,
+    TA: Sequelize.BOOLEAN,
+    status: Sequelize.STRING
 });
  
 // defining the model for Course
 const Course = sequelize.define('Course', {
     courseId: {
-        type: Sequalize.INTEGER,
+        type: Sequelize.INTEGER,
         primaryKey: true,
         autoIncrement: true
     },
-    courseCode: Sequalize.STRING,
-    courseDescription: Sequalize.STRING,
+    courseCode: Sequelize.STRING,
+    courseDescription: Sequelize.STRING,
 });
  
 // creating relationship
